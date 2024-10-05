@@ -29,7 +29,8 @@ const Product = ({product}) => {
       </div>
       {/* category & title & price */}
       <div>
-          2
+          <div>{title}</div>
+          <h2>{price}</h2>
       </div>
     </div>
   );
