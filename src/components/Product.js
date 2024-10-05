@@ -29,8 +29,12 @@ const Product = ({product}) => {
       </div>
       {/* category & title & price */}
       <div>
-          <div>{title}</div>
-          <h2>{price}</h2>
+          <div>Clothes</div>
+            <Link to={'/product/${id}'}>
+            <h2>{title}</h2>
+            </Link>
+          
+          <div>{price}</div>
       </div>
     </div>
   );
